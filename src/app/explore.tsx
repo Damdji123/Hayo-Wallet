@@ -81,7 +81,7 @@ export default function TabTwoScreen() {
                 project.
               </ThemedText>
               <Image
-                source={require('@/assets/images/tutorial-web.png')}
+                source={require('@/assets/images/Shared-Logo.jpeg')}
                 style={styles.imageTutorial}
               />
             </ThemedView>
@@ -167,9 +167,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   imageTutorial: {
-    width: '100%',
-    aspectRatio: 296 / 171,
-    borderRadius: Spacing.three,
+    width: 96,
+    height: 96,
+    borderRadius: 48,
     marginTop: Spacing.two,
   },
   imageReact: {

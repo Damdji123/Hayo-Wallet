@@ -16,11 +16,7 @@ export function WebBadge() {
         v{version}
       </ThemedText>
       <Image
-        source={
-          scheme === 'dark'
-            ? require('@/assets/images/expo-badge-white.png')
-            : require('@/assets/images/expo-badge.png')
-        }
+        source={require('@/assets/images/Shared-Logo.jpeg')}
         style={styles.badgeImage}
       />
     </ThemedView>
@@ -37,7 +33,8 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   badgeImage: {
-    width: 123,
-    aspectRatio: 123 / 24,
+    width: 48,
+    height: 48,
+    borderRadius: 24,
   },
 });
